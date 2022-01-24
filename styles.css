@@ -1,0 +1,74 @@
+
+
+.index {
+color: white;
+font-family: Epilogue;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 32px;
+text-align: center;
+}
+
+#education {
+    color: white;
+    font-family: Epilogue;
+    font: size 16px;
+    font-weight: normal;
+    line-height: 32px;
+}
+
+#workexperience {
+    color: white;
+    font-family: Epilogue;
+    font: size 16px;
+    font-weight: normal;
+    line-height: 32px;
+}
+
+#skills {
+    color: white;
+    font-family: Epilogue;
+    font: size 16px;
+    font-weight: normal;
+    line-height: 32px;
+}
+
+#projects {
+    color: white;
+    font-family: Epilogue;
+    font: size 16px;
+    font-weight: normal;
+    line-height: 32px;
+}
+
+#myname {
+
+    position: absolute;
+    width: 993px;
+    height: 120px;
+    left: -25px;
+    top: 710px;
+    
+    font-family: Epilogue;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 80px;
+    /* or 111% */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: -2px;
+    
+    /* Text_Light */
+    
+    color: #FFFFFF;
+    
+    mix-blend-mode: exclusion;
+    border: 1px solid #FFFFFF;
+    backdrop-filter: blur(4px);
+    /* Note: backdrop-filter has minimal browser support */
+    
+    transform: rotate(-90deg);
+}
