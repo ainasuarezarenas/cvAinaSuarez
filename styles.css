@@ -1,13 +1,51 @@
 
+* {
+background: black;
+margin-top: 40px;
+}
+
+p {
+    color: white;
+    font-family: Epilogue;
+}
+
+h1 {
+    color: white;
+    font-family: Epilogue;
+}
+h2 {
+    color: white;
+    font-family: Epilogue;
+}
+
+h3 {
+    color: white;
+    font-family: Epilogue;
+}
+
+h4 {
+    color: white;
+    font-family: Epilogue;
+}
 
 .index {
-color: white;
 font-family: Epilogue;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
+font-style: thin;
+font-weight: 200;
+font-size: 10px;
 line-height: 32px;
 text-align: center;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-content: center;
+text-align: center;
+color: white;
+position: absolute;
+width: 791px;
+height: 32px;
+left: 299px;
+top: 40px;
 }
 
 #education {
