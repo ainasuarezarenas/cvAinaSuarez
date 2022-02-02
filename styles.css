@@ -1,10 +1,9 @@
 body {
   padding-top: 40px;
-}
-
-* {
   background: rgb(0, 0, 0);
 }
+
+/* estils de titols i paragrafs generals */
 
 p {
   color: white;
@@ -29,6 +28,69 @@ h4 {
   color: white;
   font-family: Epilogue;
 }
+
+#workexperience {
+  color: #fffaf0;
+  font-family: Epilogue;
+  font: size 16px;
+  font-weight: normal;
+  line-height: 32px;
+}
+
+#skills {
+  color: #fffaf0;
+  font-family: Epilogue;
+  font: size 16px;
+  font-weight: normal;
+  line-height: 32px;
+}
+
+#projects {
+  color: #fffaf0;
+  font-family: Epilogue;
+  font: size 16px;
+  font-weight: normal;
+  line-height: 32px;
+}
+
+
+.intro {
+  height: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transform: rotate(-90deg);
+  flex-direction:column;
+}
+
+
+#myname {
+  font-family: Epilogue;
+  font-style: normal;
+  font-size: 650%;
+  line-height: 80px;
+  letter-spacing: -2px;
+
+  /* Text_Light */
+
+  color: #ffffff;
+  mix-blend-mode: exclusion;
+  border: none; }
+
+  .mynameisaina {
+    position: sticky;
+    display: flex;
+    align-self: flex-start;
+    flex-wrap: nowrap;
+  }
+
+  .textintro {
+    transform: rotate(90deg);
+
+  }
+
+
+/* menú superior */
 
 nav {
   font-family: Epilogue;
@@ -73,65 +135,34 @@ a:active {
   color: black;
 }
 
-#education {
-  color: #fffaf0;
-  font-family: Epilogue;
-  font: size 16px;
-  font-weight: normal;
-  line-height: 32px;
-}
 
-#workexperience {
-  color: #fffaf0;
-  font-family: Epilogue;
-  font: size 16px;
-  font-weight: normal;
-  line-height: 32px;
-}
+/* Transicions caixetes estudis */
 
-#skills {
-  color: #fffaf0;
-  font-family: Epilogue;
-  font: size 16px;
-  font-weight: normal;
-  line-height: 32px;
-}
-
-#projects {
-  color: #fffaf0;
-  font-family: Epilogue;
-  font: size 16px;
-  font-weight: normal;
-  line-height: 32px;
-}
-
-#myname {
-  position: sticky;
-  width: 993px;
-  height: 120px;
-  left: 25px;
-  top: 10px;
-
-  font-family: Epilogue;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 72px;
-  line-height: 80px;
-  /* or 111% */
-
+.uni {
   display: flex;
-  align-items: center;
-  letter-spacing: -2px;
-
-  /* Text_Light */
-
-  color: #ffffff;
-  mix-blend-mode: exclusion;
-  border: none;
-  /* Note: backdrop-filter has minimal browser support */
-
-  transform: rotate(-90deg);
+  justify-content: center;
 }
+.uni1, .uni2 , .uni3 , .uni4 { 
+    transition-timing-function: ease; 
+    width: 200px;
+    height: 120px;
+    padding: 10px;
+    background: #F7CC47;
+    transition: width 2s;
+    border-radius: 12px;
+  }
+
+  .yellow {
+    color: #F7CC47;
+  }
+
+.uni1:hover, .uni2:hover , .uni3:hover , .uni4:hover {
+    width: 600px;
+    background: black;
+  }
+
+
+  /* adaptació formats a altres pantalles */
 
 @media only screen and (max-width: 1024px) {
   body {
